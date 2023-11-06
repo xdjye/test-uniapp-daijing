@@ -1,0 +1,137 @@
+
+.chat {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.chat-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 28rpx 20rpx;
+}
+.chat-top-left {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	padding:  20rpx 20rpx;
+	font-size: 24rpx;
+	background-color: #e5f3fe;
+	border-radius: 16rpx;
+}
+.doc-icon {
+	padding: 4rpx;
+	margin-right: 12rpx;
+	width: 32rpx;
+	height: 32rpx;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+.chat-top-right {
+	display: flex;
+	align-items: center;
+	margin-left: 40rpx;
+}
+.chat-top-right-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.chat-top-right-btn:last-child {
+	margin-left: 40rpx;
+}
+.chat-top-operBtn {
+	padding: 0 !important;
+	font-size: 24rpx;
+	border: none !important;
+}
+.oper-icon {
+	width: 32rpx;
+	height: 32rpx;
+}
+.chat-content {
+	flex: 1;
+	padding: 20rpx 20rpx 200rpx;
+	background-color: #f5f7fb;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font-size: 28rpx;
+}
+.chat-content-tips {
+	padding-right: 80rpx;
+}
+.chat-content-tips-title {
+	margin: 8rpx 0;
+}
+.chat-content-tips-list-li {
+	display: inline-block;
+	margin: 8rpx 0;
+	padding: 12rpx 20rpx;
+	background-color: #cce5ff;
+	border-radius: 12rpx;
+}
+.chat-content-text {
+}
+.chat-text-li {
+	margin-top: 40rpx;
+}
+.chat-text-AI {
+	padding-right: 80rpx;
+}
+.chat-text-AI .chat-title {
+	margin: 12rpx 0;
+}
+.chat-text-AI .chat-textValue {
+	display: inline-block;
+	margin: 8rpx 0;
+	padding: 12rpx 20rpx;
+	border-radius: 12rpx;
+	white-space: normal;
+	background-color: #ffffff;
+}
+.chat-text-P {
+	padding-left: 80rpx;
+	text-align: right;
+}
+.chat-text-P .chat-title {
+	margin: 12rpx 0;
+}
+.chat-text-P .chat-textValue {
+	display: inline-block;
+	margin: 8rpx 0;
+	padding: 12rpx 20rpx;
+	border-radius: 12rpx;
+	color: #ffffff;
+	white-space: normal;
+	background-color: #25a3ff;
+}
+.chat-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12rpx 20rpx;
+}
+.bottom-input {
+	flex: 1;
+	padding: 12rpx 20rpx;
+	font-size: 28rpx;
+	border-radius: 12rpx;
+	background-color: #f7f7f7;
+}
+.submit-btn {
+	padding: 0 96rpx;
+	margin: 0 0 0 20rpx !important;
+	font-size: 28rpx;
+	color: #ffffff;
+	background-color: #23a3ff !important;
+}
+.key-board-height {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 20rpx;
+	padding: 12rpx 20rpx;
+	background-color: #ffffff;
+}
+
